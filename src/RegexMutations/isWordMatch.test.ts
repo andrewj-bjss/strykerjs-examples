@@ -4,7 +4,7 @@ import { isWordMatch } from "./isWordMatch";
 // but is not enough to catch the mutation
 
 describe('isWordMatch', () => {
-    it('should return true for a valid intput string', () => {
+    it('should return true for a valid input string', () => {
         const input = 'abc';
         const result = isWordMatch(input);
         expect(result).toBe(true);

@@ -1,6 +1,3 @@
-// Array Declaration mutations
-
-
 export function createArray(): number[] {
     return [1, 2, 3, 4, 5];
 }

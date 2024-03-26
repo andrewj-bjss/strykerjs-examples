@@ -1,11 +1,9 @@
-// Update Operator mutation
-
 export class Counter {
    private counter: number = 0;
 
    toggleState(): boolean {
       this.counter--;
-      return this.getState();         
+      return this.getState();
    }
 
    getState(): boolean {
