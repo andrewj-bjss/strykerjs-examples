@@ -4,6 +4,8 @@ It should be a universal truth that 100% code coverage doesn't mean good tests. 
 
 Enter Mutation testing. Mutation testing reports on how many of our tests still pass when something (i.e. another developer) modifies some code in some way that should have resulted in a difference in the test results. If the tests still pass after this mutated code was introduced, then it indicates gaps in test quality.
 
+It's also an additional tool for learning how to write better unit tests.
+
 In summary, mutation testing is the process of testing the tests, another layer of quality control.
 
 ## This Project
